@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Noto Sans Mono', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+    font-weight: none;
+}
 
 *{
     margin: 0;
@@ -13,7 +20,7 @@
     --claro0:#2F56F5;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Noto Sans Mono', monospace;
 }
 
 header{
@@ -31,6 +38,9 @@ header h1,h2{
     font-size: 1.3em;
     color: white;
 }
+main{
+    background-color: whitesmoke;
+}
 
 main .secao{
     min-width: 380px;
@@ -46,6 +56,7 @@ main #inicio{
     display: inline-block;
     width: 600px;
     margin-top: 5px;
+    margin-left: 10px;
     padding: 10px;
 }
 
@@ -65,8 +76,9 @@ main #inicio{
     margin-bottom: 20px;
     max-width: 600px;
     min-width: 380px;
-    text-align: justify;
     font-size: 1.5em;
+
+    text-align: justify;
     color: white;
 }
 #inicio #code{
@@ -85,7 +97,14 @@ main #inicio{
     background-image: url(background_perfil.png);
     background-repeat: no-repeat;
 }
-
+#img_perfil{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+ul{
+    margin-top: 10px;
+    margin-right: 52px ;
+}
 
 a.contato{
     text-decoration: none;
@@ -100,7 +119,6 @@ li{
     list-style: none;
 }
 
-
 main #meio{
     width: 600px;
     margin: auto;
@@ -112,6 +130,9 @@ main #meio >h2{
     font-size: 2em;
     color: var(--escuro1);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.247);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-image: linear-gradient(to right, #3058faef 1%, whitesmoke);
 }
 main #meio ul{
     margin-bottom: 20px;

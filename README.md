@@ -3,7 +3,7 @@
        Espero conseguir fazer algo melhor e surpreender vocês.</p>
 <p>Vou deixar o código público para as pessoas que precisam de ajuda, e estão começando, assim como eu.</p>
 
-<h2>Este é o link para vizualização da minha página ;)</h2>
+<h2>Este é o link para visualização da minha página ;)</h2>
  https://kenshi-sama.github.io/portifolio/
  
  Espero que gostem <3

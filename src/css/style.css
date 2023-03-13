@@ -35,11 +35,11 @@ header{
     width: 100%;
     background-color: var(--escuro1);
 }
-header h1,h2{
+header h1{
     margin-bottom: 3px;
     padding: 6px 3px 2.5px 3px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: white;
 }
 
@@ -121,11 +121,11 @@ main #meio{
     padding-bottom: 0px;
 }
 main #meio >h2{
-    max-width: 480px;
+    max-width: 400px;
     min-width: 380px;
     margin: auto;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.3em;
     color: var(--escuro1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
     border-radius: 50px;
@@ -139,7 +139,7 @@ main #meio li{
     text-align: center;
     list-style: none;
     list-style-position: inside;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bolder; 
 }
 

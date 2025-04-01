@@ -1,59 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F.Erik Full Stack</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href=".\src\css\style.css">
+    <title>Portfolio</title>
 </head>
-
 <body>
-    <header>
-        <h1>MY PAGE</h1>
-    </header>
-    <main>
-        <section id="inicio" class="secao">
-            <h1>HELLO, WORLD!</h1>
-            <p id="apresentacao">Me chamo<strong> Francisco Erik</strong>, sou iniciante em programação e web designer. Estou estudando frequentemente e aprendendo diversas formas de resolver problemas. </p>
-
-            <p id="code">
-                <code>
-                        <strong>System.out.Println</strong></br>('Gostaria de aprender muito mais com a ajuda de vocês!');
-                    </code>
-            </p>
-
-            <img id="img_perfil" src="src/imagens/narutoperfil.png" alt="F.Erik">
-            <ul>
-                <li><a class="contato" href="https://github.com/Kenshi-Sama" target="_blank">Github
-                    </a>
-                    <img src="src/imagens/github.icon.png" alt="github">
-                </li>
-                <li>
-                    <a class="contato" href="https://www.linkedin.com/in/francisco-erik-silva-ferreira-064160203/"
-                        target="_blank">Linkedin</a>
-                    <img src="src/imagens/linkedin.icon.png" alt="linkedin">
-                </li>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a id="cabecalho__menu__nome" class="cabecalho__link" href="">F. Erik Nishi</a>
+            <ul class="cabecalho__menu__itens">
+                <li><a  class="cabecalho__link"  href="">About</a></li>
+                <li><a class="cabecalho__link" href="">Projects</a></li>
+                <li><a class="cabecalho__link" href="">Contact</a></li>
             </ul>
-        </section>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo__apresentacao">
+            <h1>FULL-STACK DEVELOPER</h1>
+            <p class="conteudo__apresentacao__paragrafoInicial">Hello, my name is Francisco Erik</p>
+            <p class="conteudo__apresentacao__paragrafo">I'm a beginner developer trying to achieve mastery. I love study front-end and i'm learning JS and his frameworks right now.</p>
 
-        <section id="meio" class="secao">
-            <h2>COMECEI A DESENVOLVER EM:</h2>
-            <ul class="lista">
-                <li>HTML5</li>
-                <li>CSS3</li>
-            </ul class=" lista">
-            <h2>APRENDENDO A PROGRAMAR EM:</h2>
-            <ul>
-                <li>JavaScript</li>
+            <a class="conteudo__apresentacao__button" href="">Github</a>
+            <a class="conteudo__apresentacao__button" href="">Linkedin</a>
+
         </section>
+        
+        <img class="imagem__perfil" src=".\src\imagens\image.png" alt="">
     </main>
-    <footer>
-        <p>Portifólio desenvolvido por <strong>Francisco Erik</strong> como forma de aprendizado</p>
-    </footer>
-
 </body>
-
 </html>
